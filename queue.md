@@ -1,6 +1,6 @@
 # All About the Queue!
 
-* [Home](welcome.md)
+* [Home](README.md)
 <br/>
 
 ## Story:

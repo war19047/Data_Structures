@@ -1,6 +1,6 @@
 # All About the Linked List
 
-* [Home](welcome.md)
+* [Home](README.md)
 <br/>
 <br/>
 
