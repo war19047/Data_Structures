@@ -30,17 +30,22 @@ This course will cover one module each week and is intended to take three weeks 
 * [Student Problem Solution](linked_list_solution.py)
 
 ### Module 3:
-* [All About Trees]()
-* [Example Problem]()
-* [Student Problem]()
-* [Student Problem Solution]()
+* [All About Trees](trees.md)
+* [Example Problem](trees.py)
+* [Student Problem](trees_student.py)
+* [Student Problem Solution](trees_solution.py)
 
 
 ### Contact Info:
 * spencerryanwarner1@gmail.com
 * phone: 480-735-9477
 * Class: CSE-212-2
+
 ### About Me:
+
 I love the outdoors. I have been married to my wife for 3 years now. We are both from Arizona and we love the outdoors. I enjoy riding BMX bikes, ATV's and spending most my time outside.
+<br/>
+<br/>
+
 ![Bike](bike.jpg)
 ![Family](family.jpg)
