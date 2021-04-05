@@ -96,36 +96,48 @@ class BST():
 
     def smallest_node(self):
         '''
-        The student must write a funtion that recursivley calls through the 
-        tree and finds the smallest node in the tree.
+        The student must write a funtion that recursivley calls to find the
+        smallest node in the tree.
         '''
 
         return self._smallest_node(self.root)
 
 
     def _smallest_node(self,node):
+        '''
+        The student must write a funtion that recursivley calls to find the 
+        largest node in the tree.
+        '''
 
+        # Base Case:
         if node.left == None:
             return node.data
 
+        # Recursion:
         return self._smallest_node(node.left)
 
 
     def largest_node(self):
         '''
-        The student must write a funtion that recursivley calls through the 
-        tree and finds the largest node in the tree.
+        The student must write a funtion that recursivley calls to find the 
+        largest node in the tree.
         '''
+
         return self._largest_node(self.root)
 
  
     def _largest_node(self,node):
-
+        '''
+        This function will recrusivley work its way through the right side
+        of the tree to find the largest.
+        '''
+        
+        # Base Case.
         if node.right == None:
             return node.data
-
+        
+        # Recursion.
         return self._largest_node(node.right)
-
 
 
     def __iter__(self):

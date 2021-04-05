@@ -2,6 +2,13 @@
 This program gives the starter code for a binary search tree.
 The student needs to finish the functions that will return the 
 smallest and largest values in the tree.
+
+The student must complete the following functions:
+smallest_node
+_smallest_node
+largest_node
+_largest_node
+
 '''
 
 import random
@@ -94,21 +101,34 @@ class BST():
             return self._contains(data, node.right) 
 
 
-    def smallest_node(self,data,node):
+    def smallest_node(self):
         '''
-        The student must write a funtion that recursivley calls through the 
-        tree and finds the smallest node in the tree.
+        The student must write a funtion that recursivley calls to find the
+        smallest node in the tree
+        '''
+        pass
+
+    def _smallest_node(self,data):
+        '''
+        This function is intended to handle the recursive calls to find the 
+        smallest node.
         '''
         pass
 
 
-    def largest_node(self,data,node):
+    def largest_node(self):
         '''
-        The student must write a funtion that recursivley calls through the 
-        tree and finds the largest node in the tree.
+        The student must write a funtion that recursivley calls to find the
+        largest node in the tree.
         '''
         pass
 
+    def _largest_node(self,data):
+        '''
+        This function is intended to handle the recursive calls to find the 
+        largest node.
+        '''
+        pass
 
     def __iter__(self):
         '''
@@ -151,5 +171,7 @@ for x in tree:
     print(x)
 
 
-# Student is required to print out the smallest and largest nodes.
-# Code goes here
+# Print the largest and smallest nodes in the tree.
+print(f'The smallest node in the tree is: {tree.smallest_node()}')
+
+print(f'The largest node in the tree is: {tree.largest_node()}')
